@@ -1,0 +1,21 @@
+{
+  "dailyTimes": ["10:00", "18:00", "22:00"],
+  "pollMinutes": 360,
+  "tokenFile": "secrets/github-token.txt",
+  "watchIssues": true,
+  "notifyUpdates": false,
+  "notify": {
+    "windows": true,
+    "mail": {
+      "smtp": "smtp.qq.com",
+      "port": 465,
+      "user": "you@qq.com",
+      "code": "SMTP 授权码 / app password,不是登录密码 not your login password",
+      "to": "you@qq.com"
+    },
+    "serverchan": { "sendKey": "" }
+  },
+  "repos": [
+    { "owner": "OWNER", "repo": "REPO", "enabled": true, "includePending": true }
+  ]
+}
