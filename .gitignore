@@ -1,0 +1,16 @@
+# 运行时状态:每台机器、每次运行都不一样,不该提交
+state.json
+watcher.log
+launcher.log
+watcher.pid
+watcher.lock
+watcher.stop
+__pycache__/
+*.pyc
+
+# 密钥:token 文件放这里
+secrets/
+
+# 本地配置:里面有 SMTP 授权码,以及你自己的仓库清单
+# 新环境请复制 config.example.json 成 config.json 再填
+config.json
